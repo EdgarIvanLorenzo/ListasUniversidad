@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(#F59800,#F50073);
+    background-size: 100vw auto;
+    background-repeat: no-repeat;
+}
+main{
+    width: 50%;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:white;
+    border-radius:10px;
+    margin-bottom: 90px;
+    padding:20px;
+}
+.canciones{
+    width: 65%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.canciones>h2{
+    padding: 30px;
+    font-size:40px;
+}
+img{
+    width: 200px;
+    height: 180px;
+}
+details{
+    font-size:25px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+details>ul{
+    list-style:none;
+}
+ul>li{
+    padding: 5px;
+    font-size: 14px;
+}
+summary{
+    outline:none;
+    padding:5px;
+}
+details>summary:hover{
+    background-color:#ED8A14;
+}
